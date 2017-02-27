@@ -1,0 +1,10 @@
+(*
+	This is an example WHILE program built for the
+	LearnWHILE interpreter and learning tool.
+	
+	It adds 1 to a number and returns it.
+*)
+
+addOne read X {
+	Y := cons nil X
+} write Y

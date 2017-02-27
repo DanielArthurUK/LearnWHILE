@@ -1,0 +1,8 @@
+(*
+	Program that outputs the same variable
+	that is given as input.
+*)
+
+duplicate read X {
+	Y := X
+} write Y
